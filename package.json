@@ -1,0 +1,10 @@
+{
+  "name": "clickhouse-codemirror",
+  "version": "1.0.0",
+  "description": "ClickHouse SQL mode for CodeMirror",
+  "author": "Bao Dang <dangvinhbao@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "codemirror": "^5.19.0"
+  }
+}
