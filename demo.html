@@ -12,11 +12,12 @@
     <textarea id="code" name="code"></textarea>
     <script type="text/javascript" src="/node_modules/codemirror/lib/codemirror.js"></script>
     <script type="text/javascript" src="/node_modules/codemirror/addon/hint/show-hint.js"></script>
+    <script type="text/javascript" src="/lib/ch.js"></script>
     <script type="text/javascript" src="/lib/sql.js"></script>
     <script type="text/javascript" src="/lib/sql-hint.js"></script>
     <script type="text/javascript">
       CodeMirror.fromTextArea(document.getElementById('code'), {
-        mode: 'text/x-pgsql',
+        mode: 'text/x-chsql',
         lineNumbers: true,
         extraKeys: {
           'Ctrl-Space': 'autocomplete'
